@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html { 
+  background: url(images/landsea.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+#landsea{
+	margin: auto;
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	font-family: 'Comfortaa', "cursive" !important;
+}
+
+
+#landing {
+	width: 100%;
+	height: 100vh;
+	background: url('../images/landsea.jpg');
+	-webkit-background-size: cover;
+}
+
+.intro {
+  text-align: center;
+  color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50px;
+}
+
+.socmedbuttons{
+	float: right;
+}
+
+
+.centered {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Pacifico', "cursive";
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px gray;
+}
+
+#landing-button {
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    transform: translate(-50%, 1500%);
+    font-family: 'Fredoka One', "cursive";
+    text-align: center;
+}
+
+.clickhereabout {
+	  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Raleway";
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#gallery {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#about-us {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#services {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#contact-us {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+#sticky-social {
+   left: 0;
+   position: fixed;
+   top: 150px;
+}
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 960px){
+
+}
