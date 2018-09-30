@@ -14,12 +14,12 @@ html {
 
 
 
-#landsea{
+/*#landsea{
 	margin: auto;
 	background-repeat: repeat-x;
 	margin: 0;
 	padding: 0;
-}
+}*/
 
 .navbar {
 	font-family: 'Comfortaa', "cursive" !important;
@@ -125,11 +125,46 @@ html {
    position: fixed;
    top: 150px;
 }
+
+#buttonform {
+  padding-top: 10px;
+}
+
+#formcontact {
+/*  padding-top: 20px;
+*/}
+
+#sel1 {
+  width: 100%;
+}
+
+#socmedbuttons {
+  position: center;
+  padding-top: 50px
+  margin-right: 400px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(to bottom, #ff0066 0%, #ffff66 100%);
+    color: white;
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px){
 
-#intro {
-font-size: 1em;
+
 
 }
 
